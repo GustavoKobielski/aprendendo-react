@@ -32,6 +32,7 @@ export class Counter extends React.Component {
 
           <input type="password" placeholder="Senha" value={this.state.password} onChange={(event) => {this.setState({password: event.target.value})}} />
 
+          <button>enviar</button>
         </form>
       </div>
     )
